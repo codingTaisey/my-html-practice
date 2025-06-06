@@ -1,57 +1,8 @@
-body {
-  font-family: sans-serif;
-  margin: 2rem;
-  background-color: #f0f0f0;
+.test1 {
+  color: red;
 }
 
-.input-area {
-  display: flex;
-  gap: 0.5rem;
-  margin-bottom: 1rem;
+#test2 {
+  color:blue;
 }
 
-#taskInput {
-  flex: 1;
-  padding: 0.5rem;
-  font-size: 1rem;
-}
-
-#addTaskBtn {
-  padding: 0.5rem 1rem;
-  font-size: 1rem;
-  cursor: pointer;
-}
-
-#taskList li {
-  background: white;
-  padding: 0.5rem;
-  margin-bottom: 0.5rem;
-  list-style: none;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-
-#taskList li span {
-  flex-grow: 1;
-  cursor: pointer;
-  user-select: none;
-}
-
-.completed {
-  text-decoration: line-through;
-  color: gray;
-  opacity: 0.7;
-}
-
-button {
-  background: none;
-  border: none;
-  font-size: 1.2rem;
-  color: #888;
-  transition: color 0.2s ease;
-}
-
-button:hover {
-  color: #e63946;
-}
