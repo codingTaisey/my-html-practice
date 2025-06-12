@@ -1,8 +1,28 @@
-.test1 {
-  color: red;
+@charset "UTF-8";
+
+/* 画面のスタイルシート */
+body {
+  font-family: "Noto Sans JP", sans-serif;
+  margin: 0;
+  min-width: 1076px;
 }
 
-#test2 {
-  color:blue;
+.color-green {
+ color: #00abae;
 }
 
+
+/* [header]のスタイルシート　*/
+
+.block-header {
+ margin: 10px 0;
+ padding: 0 20px 10px;
+ box-shadow: 0px 10px 10px -5px rgba(204,204,204,0.3);
+}
+
+.block-header a {
+ font-size: 40px;
+ color: #000;
+ text-decoration: none;
+ letter-spacing: 1px;
+}
